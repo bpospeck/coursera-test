@@ -17,9 +17,9 @@ h2 {
   border: 1px solid black;
   width: 100px;
   height: 25px;
-  float: right;
   margin: 0;
   margin-bottom: 10px;
+  float: right;
 }
 
 p {
@@ -30,21 +30,23 @@ p {
 }
 
 .section{
-  border: 2px solid black;
+  position: relative;
+  background-color: #CC88FF;
+  border: 1px solid black;
   margin: 5px;
 }
 
 .chicken {
-  background-color: #D59898;
+  background-color: #88FF88/*#D59898*/;
 }
 
 .beef{
-  background-color: #C14543;
+  background-color: #1C10FF/*#C14543*/;
   color: white;
 }
 
 .sushi{
-  background-color: #E5D098;
+  background-color: #FF88FF/*#E5D098*/;
 }
 
 /* Simple Responsive Framework. */
